@@ -1,0 +1,20 @@
+export interface Skin {
+    id: number,
+    isBase: boolean,
+    name: string,
+    splashPath: string,
+    uncenteredSplashPath: string,
+    tilePath: string,
+    loadScreenPath: string,
+    skinType: string,
+    rarity: string,
+    isLegacy: boolean,
+    splashVideoPath: string,
+    featuresText: string,
+    chromaPath: string,
+    emblems: any,
+    regionRarityId: number,
+    rarityGemPath: string,
+    skinLines: any,
+    description: string
+}

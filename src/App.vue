@@ -1,19 +1,23 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>
-    </div>
     <router-view />
   </div>
 </template>
 
 <style lang="scss">
+html, body {
+  height: 100%;
+}
+body{
+  background-image: url("https://zak-sahmane.firebaseapp.com/img/background.6f0032f7.png");
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 100%;
 }
 
 #nav {
