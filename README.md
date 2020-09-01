@@ -1,4 +1,4 @@
-# hearthstone-cards
+# LolChampSelect
 
 ## Project setup
 ```
